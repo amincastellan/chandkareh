@@ -8,13 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class welcomeVC: UIViewController {
+    @IBOutlet weak var chaarsu_logo: UIImageView!
+    @IBOutlet weak var bgimage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+   
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
+    
+    @IBAction func unwindFromserviceSelection(unwindsegue: UIStoryboardSegue) {
+        
+    }
 
 }
 
