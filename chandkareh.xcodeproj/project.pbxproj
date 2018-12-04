@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F710E5EA21B3238000BFBA18 /* computerServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710E5E921B3238000BFBA18 /* computerServiceVC.swift */; };
+		F710E5EC21B323EF00BFBA18 /* InternetServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710E5EB21B323EF00BFBA18 /* InternetServiceVC.swift */; };
+		F73D42B321B3E26900B4BFC2 /* dateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D42B221B3E26900B4BFC2 /* dateTime.swift */; };
+		F73D42B721B3FC3900B4BFC2 /* persiandateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D42B621B3FC3900B4BFC2 /* persiandateClass.swift */; };
 		F73DACC021B291D3009DEA23 /* Servicee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73DACBF21B291D3009DEA23 /* Servicee.swift */; };
 		F79B2EC921AEAE8300A6505D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F79B2EC821AEAE8300A6505D /* Default-568h@2x.png */; };
 		F7D367CA21AE97D40075CDA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D367C921AE97D40075CDA7 /* AppDelegate.swift */; };
@@ -15,12 +19,17 @@
 		F7D367D121AE97D70075CDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D367D021AE97D70075CDA7 /* Assets.xcassets */; };
 		F7D367D421AE97D70075CDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D367D221AE97D70075CDA7 /* LaunchScreen.storyboard */; };
 		F7D367DF21AEA07B0075CDA7 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D367DE21AEA07B0075CDA7 /* BorderButton.swift */; };
+		F7F99DAD21B6949400B37F1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7F99DAC21B6949400B37F1B /* GoogleService-Info.plist */; };
 		F7FDCFB721B19BFF002F1AC7 /* serviceSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FDCFB621B19BFF002F1AC7 /* serviceSelectionVC.swift */; };
-		F7FDCFB921B19CFA002F1AC7 /* serviceTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FDCFB821B19CFA002F1AC7 /* serviceTypeVC.swift */; };
+		F7FDCFB921B19CFA002F1AC7 /* HandCserviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FDCFB821B19CFA002F1AC7 /* HandCserviceVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F710E5E921B3238000BFBA18 /* computerServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = computerServiceVC.swift; sourceTree = "<group>"; };
+		F710E5EB21B323EF00BFBA18 /* InternetServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetServiceVC.swift; sourceTree = "<group>"; };
 		F7263F8721B0079400D155E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73D42B221B3E26900B4BFC2 /* dateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateTime.swift; sourceTree = "<group>"; };
+		F73D42B621B3FC3900B4BFC2 /* persiandateClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = persiandateClass.swift; sourceTree = "<group>"; };
 		F73DACBF21B291D3009DEA23 /* Servicee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servicee.swift; sourceTree = "<group>"; };
 		F79B2EC821AEAE8300A6505D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F7D367C621AE97D40075CDA7 /* chandkareh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chandkareh.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,8 +39,9 @@
 		F7D367D021AE97D70075CDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7D367D321AE97D70075CDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7D367DE21AEA07B0075CDA7 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		F7F99DAC21B6949400B37F1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F7FDCFB621B19BFF002F1AC7 /* serviceSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceSelectionVC.swift; sourceTree = "<group>"; };
-		F7FDCFB821B19CFA002F1AC7 /* serviceTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceTypeVC.swift; sourceTree = "<group>"; };
+		F7FDCFB821B19CFA002F1AC7 /* HandCserviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandCserviceVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +58,7 @@
 		F73DACBE21B291B7009DEA23 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F73D42B621B3FC3900B4BFC2 /* persiandateClass.swift */,
 				F73DACBF21B291D3009DEA23 /* Servicee.swift */,
 			);
 			path = Model;
@@ -76,6 +87,7 @@
 				F73DACBE21B291B7009DEA23 /* Model */,
 				F7FDCFB521B19AF2002F1AC7 /* Controllers */,
 				F7263F8721B0079400D155E1 /* Info.plist */,
+				F7F99DAC21B6949400B37F1B /* GoogleService-Info.plist */,
 				F7D367DD21AEA0330075CDA7 /* Views */,
 				F7D367C921AE97D40075CDA7 /* AppDelegate.swift */,
 				F7D367CD21AE97D40075CDA7 /* Main.storyboard */,
@@ -98,7 +110,10 @@
 			children = (
 				F7D367CB21AE97D40075CDA7 /* welcomeVC.swift */,
 				F7FDCFB621B19BFF002F1AC7 /* serviceSelectionVC.swift */,
-				F7FDCFB821B19CFA002F1AC7 /* serviceTypeVC.swift */,
+				F7FDCFB821B19CFA002F1AC7 /* HandCserviceVC.swift */,
+				F710E5E921B3238000BFBA18 /* computerServiceVC.swift */,
+				F710E5EB21B323EF00BFBA18 /* InternetServiceVC.swift */,
+				F73D42B221B3E26900B4BFC2 /* dateTime.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -163,6 +178,7 @@
 			files = (
 				F7D367D421AE97D70075CDA7 /* LaunchScreen.storyboard in Resources */,
 				F79B2EC921AEAE8300A6505D /* Default-568h@2x.png in Resources */,
+				F7F99DAD21B6949400B37F1B /* GoogleService-Info.plist in Resources */,
 				F7D367D121AE97D70075CDA7 /* Assets.xcassets in Resources */,
 				F7D367CF21AE97D40075CDA7 /* Main.storyboard in Resources */,
 			);
@@ -175,10 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7FDCFB921B19CFA002F1AC7 /* serviceTypeVC.swift in Sources */,
+				F7FDCFB921B19CFA002F1AC7 /* HandCserviceVC.swift in Sources */,
 				F73DACC021B291D3009DEA23 /* Servicee.swift in Sources */,
+				F710E5EA21B3238000BFBA18 /* computerServiceVC.swift in Sources */,
+				F73D42B721B3FC3900B4BFC2 /* persiandateClass.swift in Sources */,
 				F7FDCFB721B19BFF002F1AC7 /* serviceSelectionVC.swift in Sources */,
 				F7D367CC21AE97D40075CDA7 /* welcomeVC.swift in Sources */,
+				F710E5EC21B323EF00BFBA18 /* InternetServiceVC.swift in Sources */,
+				F73D42B321B3E26900B4BFC2 /* dateTime.swift in Sources */,
 				F7D367CA21AE97D40075CDA7 /* AppDelegate.swift in Sources */,
 				F7D367DF21AEA07B0075CDA7 /* BorderButton.swift in Sources */,
 			);
